@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tri6.obj-6ad5d55cd784fbc51202b16f2d99aee7.mesh"
+
+[deps]
+
+files=[ "res://.import/tri6.obj-6ad5d55cd784fbc51202b16f2d99aee7.mesh" ]
+
+source_file="res://assets/tri6.obj"
+dest_files=[ "res://.import/tri6.obj-6ad5d55cd784fbc51202b16f2d99aee7.mesh", "res://.import/tri6.obj-6ad5d55cd784fbc51202b16f2d99aee7.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )

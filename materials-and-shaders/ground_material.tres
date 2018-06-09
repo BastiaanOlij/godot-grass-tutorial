@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=2]
+
+[ext_resource path="res://materials-and-shaders/ground.shader" type="Shader" id=1]
+[ext_resource path="res://textures/TexturesCom_Grass0202_1_seamless_S.jpg" type="Texture" id=2]
+[ext_resource path="res://textures/iceland.png" type="Texture" id=3]
+[ext_resource path="res://textures/TexturesCom_Grass0202_1_seamless_N.png" type="Texture" id=4]
+
+[resource]
+
+resource_name = "Ground"
+render_priority = 0
+shader = ExtResource( 1 )
+shader_param/amplitude = null
+shader_param/albedo = ExtResource( 2 )
+shader_param/normalmap = ExtResource( 4 )
+shader_param/heightmap = ExtResource( 3 )
+_sections_unfolded = [ "Resource", "Shader Param", "shader" ]
+

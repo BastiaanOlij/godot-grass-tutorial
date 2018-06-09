@@ -1,0 +1,18 @@
+[gd_resource type="ShaderMaterial" load_steps=4 format=2]
+
+[ext_resource path="res://materials-and-shaders/particle.shader" type="Shader" id=1]
+[ext_resource path="res://textures/iceland.png" type="Texture" id=2]
+[ext_resource path="res://textures/noise_texture.png" type="Texture" id=3]
+
+[resource]
+
+render_priority = 0
+shader = ExtResource( 1 )
+shader_param/rows = null
+shader_param/spacing = null
+shader_param/amplitude = null
+shader_param/heightmap_size = null
+shader_param/heightmap = ExtResource( 2 )
+shader_param/noisemap = ExtResource( 3 )
+_sections_unfolded = [ "Shader Param", "shader" ]
+
