@@ -19,8 +19,9 @@ void vertex() {
 void fragment() {
 	vec4 color = texture(texture_map, UV);
 	ALBEDO = color.rgb;
-	ALPHA = color.a;
-	ALPHA_SCISSOR = 0.3;
+	if (color.a < 0.3) {
+		discard;
+	}
 	
 	NORMALMAP = texture(normal_map, UV).rgb;
 	
